@@ -1,0 +1,90 @@
+r.container{
+    overflow: visible;
+    position: relative;
+   
+}
+
+
+
+.r-head{
+    margin-bottom: 2rem;
+    overflow: visible;
+    margin-top: 5rem;
+   
+    
+}
+.r-button{
+
+    position: relative;
+    gap: 1rem;
+    top:    -1rem;
+    z-index: 2;
+    right: 0rem;
+    
+    
+}
+    
+
+.r-button button{
+    font-size: 2rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    background: bisque;
+    border: none;
+    border-radius: 25%;
+    z-index: 2;
+}
+
+
+.r-card{
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 15px;
+    max-width: max-content;
+    margin: 20px;
+    transition: all 300ms ease-in;
+
+
+}
+
+.r-card>img{
+    width: 100%;
+    max-width: 15rem;
+}
+
+.r-card>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+r-card>:nth-child(2){
+    font-size: 1.5rem;
+}
+r-card>:nth-child(3){
+    font-size: 0.7rem;
+    width: 15rem;
+}
+.r-card:hover{
+
+    scale: 1.025;
+    cursor: pointer;
+    background:var(--slide-gradient);
+
+    box-shadow: 5px 82px 99px -10px chocolate;  ;
+
+}
+.swiper.horizontal{
+    overflow: visible;
+}
+@media(max-width=640px){
+    .r-head{
+        align-items: center;
+    }
+    .r-button{
+        position: initial;
+    }
+    .r-card{
+        align-items: center;
+    }
+
+}
+

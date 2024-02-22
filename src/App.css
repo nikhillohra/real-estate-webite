@@ -1,0 +1,23 @@
+.App{
+    position: relative;
+    overflow-x:clip;
+}
+.App>:nth-child(1){
+    background-color: var(--black);
+    z-index: 1;
+}
+
+.white-gold{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    
+    background-color: rgba(230, 166, 7, 0.881);
+    background-color: hsla(0, 59%, 41%, 0.852);
+   
+    
+    border-radius: 5cqb;
+    filter: blur(100px);
+    z-index: 2;
+    
+}

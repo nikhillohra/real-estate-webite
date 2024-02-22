@@ -1,0 +1,131 @@
+.hero-wrapper{
+    color:hsl(0, 0%, 94%) ;
+    position: relative;
+    padding-bottom: 2rem;
+   
+}
+
+.hero-container{
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+    .hero-description{
+        color: rgba(154, 154, 154, 0.963);
+    }
+
+
+
+ /*  left side */
+
+ .hero-left{
+    gap:3rem;
+
+ }
+ .hero-title{
+   
+    position: relative;
+    z-index: 1;
+ }
+ .hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+ }
+
+
+ .orange-circle{
+   
+    background:var(--blue-gradient);
+    height: 5rem;
+    width: 5rem;
+    border-radius: 999px;
+    position: absolute;
+    opacity: 0.8;
+    right: calc(50% - 2.5rem); 
+    top: -1rem;
+    z-index: -1;
+
+}
+.search-bar{
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 3px solid hsla(120, 120%, 120%, 0.832);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.search-bar>input{
+    border: none;
+    outline: none;
+}
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat>:nth-child(1){
+    font-size: 2rem;
+    color:rgba(255, 144, 59, 0.823);
+    
+}
+
+
+.plus{
+   font-size: 1.5rem;
+   color:rgba(255, 144, 59, 0.823);
+    
+}
+.sText{
+    color: hsla(0, 0%, 56%, 0.856);
+}
+
+
+
+
+ /*  right side */
+
+ .image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+border-radius: 15rem 15rem 0 0 ;
+border: 8px solid hsla(0, 2%, 11%, 0.873);
+ }
+ .image-container>img{
+    width: 100%;
+    height: 100%;
+ }
+ @media(max-width: 640px){
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+}
+    .hero-right{
+        width: 100%;
+
+    }
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2){
+        font-size: 0.8rem;
+    }
+    .orange-circle{
+        position: absolute;
+        top: -1rem;
+        
+        right: calc(50% - 2.5rem); 
+    }
+ }
