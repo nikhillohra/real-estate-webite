@@ -18,7 +18,7 @@ const Residencies = () => {
   
    </div>
 
-   <Swiper {...sliderSettings} >
+   <Swiper {...sliderSettings} > 
    
 
    <SliderButtons/>

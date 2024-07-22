@@ -69,7 +69,7 @@ r-card>:nth-child(3){
     cursor: pointer;
     background:var(--slide-gradient);
 
-    box-shadow: 5px 82px 99px -10px chocolate;  ;
+    box-shadow: 4px 6px 109px -34px chocolate;  ;
 
 }
 .swiper.horizontal{
